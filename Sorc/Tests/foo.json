@@ -1,0 +1,37 @@
+﻿{
+   "__type": "Function",
+   "prototype": {
+      "__type": "Prototype",
+      "globalName": "main",
+      "params": [],
+      "returnType": {
+         "__type": "Reference",
+         "ownership": {
+            "__type": "Share"
+         },
+         "kind": {
+            "__type": "Int"
+         }
+      }
+   },
+   
+   "block": {
+      "__type": "Block",
+      "nodes": [
+         {
+            "__type": "ConstantI64", 
+            "registerId": "0", 
+            "value": 42
+         }
+      ],
+      "resultType": {
+         "__type": "Reference",
+         "ownership": {
+            "__type": "Share"
+         }, 
+         "kind": {
+            "__type": "Int"
+         }
+      }
+   }
+}
